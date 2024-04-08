@@ -1,0 +1,35 @@
+.container{
+    background:linear-gradient(90deg,aquamarine,rgb(243, 121, 141));
+    width:auto;
+    height:500px;
+    margin:100px auto;  
+    display: grid;
+    grid-template-rows: 40px 200px;
+    row-gap: 200px;
+}
+
+#question{
+    font-weight: bolder;
+    font-size: 50px;
+    width: auto;
+    left:30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.options{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+img{
+    width:200px;
+    height:auto;
+
+}
+body{
+    background:linear-gradient(90deg,aquamarine,rgb(243, 121, 141));
+}

@@ -1,0 +1,34 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <title>Poll</title>
+        <meta charset="UTF-18">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="poll-result.css">   
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="container"> 
+            <label id="question">RESULTS</label>
+
+        <div class="options">
+            <div class="result">
+                <img id="python" src="./Python.svg.png" alt="python">  
+                    <div id="pythonp" class="progress" value=0 styles="border-color:blue"></div>    
+            </div>   
+            <div class="result">
+            <img id="java" src="./java-removebg-preview.png" alt="java">
+                <div id="javap" class="progress" value=0></div>
+            </div> 
+            <div class="result">
+            <img id="c++" src="./c++-removebg-preview.png" alt="c++">
+                <div id="c++p" class="progress"value=0></div>
+            </div>
+            <div class="result">
+            <img id="javascript" src="js.png" alt="javascript">
+                <div id="javascriptp" class="progress" value=0></div>
+            </div>
+        </div>
+        <script src="poll-result.js"></script>
+    </body>
+</html>
